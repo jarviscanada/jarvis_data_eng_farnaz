@@ -7,7 +7,7 @@ username= $3
 export PGPASSWORD='password'
 
 #check docker_deamon status, if not running, start docker
-sudo systemctl status docker || sudo systemctl start docker)
+sudo systemctl status docker || sudo systemctl start docker
 
 # Second if statement- Create
 if [[ $operation = "create" ]]; then
@@ -17,7 +17,7 @@ if [[ $operation = "create" ]]; then
     fi
 
     if [[ ! $username ]] || [[ ! $password ]]; then 
-        echo "ERROR! Please enter correct number of arguements"
+        echo "ERROR!...Please enter correct number of arguements"
         exit 1
     fi
 
