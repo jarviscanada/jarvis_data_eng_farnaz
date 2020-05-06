@@ -6,10 +6,10 @@ username= $3
 #set password for default user `postgres`
 export PGPASSWORD='password'
 
-#check docker_deamon status, if not running, start docker
+#checks docker_deamon status, if not running, start docker
 sudo systemctl status docker || sudo systemctl start docker
 
-# Second if statement- Create
+# Creates the docker...It gives an error it is already created 
 if [[ $operation = "create" ]]; then
     if [[ $(docker container ls -a -f name=jrvs-psql | wc -l) -ge 2 ]]; then 
         echo "ERROR!...The container is already created"
@@ -41,7 +41,7 @@ elif [[ $operation = "stop" ]]; then
    docker container stop jrvs-psql
    exit 0
 else
-#inform about wrong command entry
+#Gives an error if type of the requested operation is not defined
 	echo "ERROR!...Command is invalid... Please enter valid command:start,stop or create"
 	exit 1
 
