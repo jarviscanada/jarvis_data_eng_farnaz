@@ -4,7 +4,7 @@ operation=$1
 password=$2 
 username= $3
 #set password for default user `postgres`
-export PGPASSWORD='password'
+export PGPASSWORD=$password
 
 #checks docker_deamon status, if not running, start docker
 sudo systemctl status docker || sudo systemctl start docker
@@ -23,7 +23,7 @@ if [[ $operation = "create" ]]; then
 
     sudo docker volume create pgdata
     docker run --name jrvs-psql -e POSTGRES_PASSWORD=$password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 $username
-    exit 0
+    exit $
 
 fi
 
@@ -34,20 +34,14 @@ fi
 
 if [[ $operation = "start" ]]; then
    docker container start jrvs-psql
-   exit 0
+   exit $
 
 elif [[ $operation = "stop" ]]; then
    docker container start jrvs-psql
    docker container stop jrvs-psql
-   exit 0
+   exit $
 else
 #Gives an error if type of the requested operation is not defined
 	echo "ERROR!...Command is invalid... Please enter valid command:start,stop or create"
 	exit 1
-
 fi
-
-
-
-
-
