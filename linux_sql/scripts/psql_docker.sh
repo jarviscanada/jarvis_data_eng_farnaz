@@ -23,7 +23,7 @@ if [[ $operation = "create" ]]; then
 
     sudo docker volume create pgdata
     docker run --name jrvs-psql -e POSTGRES_PASSWORD=$password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 $username
-    exit $
+    exit 0
 
 fi
 
@@ -34,12 +34,12 @@ fi
 
 if [[ $operation = "start" ]]; then
    docker container start jrvs-psql
-   exit $
+   exit 0
 
 elif [[ $operation = "stop" ]]; then
    docker container start jrvs-psql
    docker container stop jrvs-psql
-   exit $
+   exit 0
 else
 #Gives an error if type of the requested operation is not defined
 	echo "ERROR!...Command is invalid... Please enter valid command:start,stop or create"
