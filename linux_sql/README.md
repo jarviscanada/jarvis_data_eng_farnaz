@@ -6,8 +6,8 @@ Based on this generated report, better troubleshooting or resource planning woul
 
 ## Architecture and Design
 The diagram below illustrates the architecture design of three nodes: <br />
-![my image](./assets/Design.png)
-<img src="./assets/Design.png" width="200">
+![my image](./assets/Design.png)  <br />
+<img src="./assets/Design.png" width="400">
 
 - The `postgreSQL` instance is used to persist all the data <br />
 - The `Bash Scripts`, which is installed inside each node is consisted of two scripts: <br />
