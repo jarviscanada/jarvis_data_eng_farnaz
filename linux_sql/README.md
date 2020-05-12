@@ -5,7 +5,7 @@ Cluster Monitor Agent is a real-time internal tool that helps Linux Cluster Admi
 Based on this generated report, better troubleshooting or resource planning would be performed by infrastructure team.
 
 ## Architecture and Design
-The diagram below illustrates the architecture design of three nodes: <br />
+The diagram below illustrates the architecture design of three nodes: <br /> <br /> <br />
 <img src="./assets/Design.png" width="550">
 
 - The `postgreSQL` instance is used to persist all the data <br />
@@ -20,7 +20,7 @@ psql_docker.sh will set up the PostgreSQL database by using docker and acts as a
 ```./scripts/psql_docker.sh [start|stop] [db_passwd]```
 
 ### Creating tables
-ddl.sql will set up the database and creates host_info and host_usage tables
+ddl.sql will set up the database and creates host_info and host_usage tables <br />
 ```psql -h localhost -U postgres -W -f sql/ddl.sql``` 
 
 ### Collecting Server Data and Inserting into tables
@@ -29,7 +29,9 @@ ddl.sql will set up the database and creates host_info and host_usage tables
 
 ### Forcing host_usage to be triggered once in a minute using crontab
 Since the host_usage.sh should run every minute, crontab should be executed. <br />
+Editing crontab jobs: <br />
 ```crontab -e``` <br />
+Adding this line to crontab: <br />
 ```* * * * * * bash [server's local pathway]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log```
 
 ### Verifying the results
