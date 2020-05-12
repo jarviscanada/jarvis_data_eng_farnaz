@@ -5,7 +5,7 @@ Cluster Monitor Agent is a real-time internal tool that helps Linux Cluster Admi
 Based on this generated report, better troubleshooting or resource planning would be performed by infrastructure team.
 
 ## Architecture and Design
-![my image](./assets/Design.png)
+![my image](./assets/Design.png =100x)
 1) Draw a cluster diagram with three Linux hosts, a DB, and agents
 2) Describe tables
 3) Describe scripts
