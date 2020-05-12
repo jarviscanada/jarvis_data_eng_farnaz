@@ -7,35 +7,42 @@ Based on this generated report, better troubleshooting or resource planning woul
 ## Architecture and Design
 The diagram below illustrates the architecture design of three nodes: <br />
 ![my image](./assets/Design.png)
+<img src="./assets/Design.png" width="200">
 
 - The `postgreSQL` instance is used to persist all the data <br />
-- The `Bash Scripts`, which is installed inside each node is consisted of two scripts <br />
+- The `Bash Scripts`, which is installed inside each node is consisted of two scripts: <br />
     - `host_info.sh` collects the host hardware info and insert it into the database. It will be run only once at the installation time. <br />
     - `host_usage.sh` collects the current host usage (CPU and Memory) and then insert into the database. It will be triggered by the `crontab` job every minute. <br />
 
 ## Usage
 
-psql_docker.sh will set up the PostgreSQL database by using docker and acts as a switch to start/stop the psql instance.
-### Starting psql docker instance
-```./scripts/psql_docker.sh start [db_passwd]```
-### Stopping psql docker instance
-```./scripts/psql_docker.sh stop```
+### Starting or stopping psql docker instance
+psql_docker.sh will set up the PostgreSQL database by using docker and acts as a switch to start/stop the psql instance. <br />
+```./scripts/psql_docker.sh [start|stop] [db_passwd]```
 
-ddl.sql will set up the database and creates host_info and host_usage tables
 ### Creating tables
+ddl.sql will set up the database and creates host_info and host_usage tables
 ```psql -h localhost -U postgres -W -f sql/ddl.sql``` 
 
 ### Collecting Server Data and Inserting into tables
-```bash -x ./scripts/host_info.sh localhost 5432 host_agent postgres password```
+```bash -x ./scripts/host_info.sh localhost 5432 host_agent postgres password``` <br /> 
 ```bash -x ./scripts/host_usage.sh localhost 5432 host_agent postgres password```
 
-Since the host_usage.sh should run every minute, crontab should be executed.
-### Forcing host_usage to be executed once in a minute using crontab
-```crontab -e```
+### Forcing host_usage to be triggered once in a minute using crontab
+Since the host_usage.sh should run every minute, crontab should be executed. <br />
+```crontab -e``` <br />
 ```* * * * * * bash [server's local pathway]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log```
 
-queries.sql consists of two business question examples regarding hardware info and memory usage
+### Verifying the results
+The command line to connect to psql instance: <br />
+```psql -h localhost -U postgres host_agent``` <br />
+Connecting to the host_agent database: <br />
+```\c host_agent;``` <br />
+Viewing the table: <br />
+```select * from [host_info|host_usage];```
+
 ### Executing .sql file using psql CLI tool
+queries.sql consists of two business question examples regarding hardware info and memory usage <br />
 ```psql -h localhost -U postgres -d host_agent -f sql/queries.sql```
 
 ## Improvements 
