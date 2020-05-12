@@ -1,7 +1,7 @@
 # Linux Cluster Monitoring Agent
 
 ## Introduction
-Cluster Monitor Agent is a real-time internal tool that helps Linux Cluster Administration (LCA) team to collect and record the hardware specifications and node resource usages, such as CPU and memory information. The collected data is stored in a locally hosted PostgreSQL database and can be used for generating technical report.
+Cluster Monitor Agent is a real-time internal tool that helps Linux Cluster Administration (LCA) team to collect and record the hardware specifications and node resource usages, such as CPU and memory information. The collected data is stored in a locally hosted PostgreSQL database and can be used for generating technical report. <br />
 Based on this generated report, better troubleshooting or resource planning would be performed by infrastructure team.
 
 ## Architecture and Design
