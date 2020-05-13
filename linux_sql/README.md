@@ -8,10 +8,19 @@ Based on this generated report, better troubleshooting or resource planning woul
 The diagram below illustrates the architecture design of three nodes: <br /> <br /> 
 <img src="./assets/Design.png" width="550">
 
-- The `postgreSQL` instance is used to persist all the data <br />
-- The `Bash Scripts`, which is installed inside each node is consisted of two scripts: <br /> <br />
+#### Scripts
+The `Bash Scripts`, which is installed inside each node is consisted of two scripts: <br /> <br />
     - `host_info.sh` collects the host hardware info and insert it into the database. It will be run only once at the installation time. <br />
     - `host_usage.sh` collects the current host usage (CPU and Memory) and then insert into the database. It will be triggered by the `crontab` job every minute. <br />
+
+### Database
+The `postgreSQL` instance is used to persist all the data and consists of two tables: <br />  <br /> 
+
+Name | Description | Data Columns
+------------ | ------------- | -----------------------------
+host_info | Hardware Specifications Data| id,hostname,cpu_number,cpu_architecture,cpu_model,cpu_mhz,L2_cache,timestamp
+host_usage | Linux Resource Usage Data | timestamp,host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available
+
 
 ## Usage
 
