@@ -79,12 +79,6 @@ public class LambdaStreamExcImp implements LambdaStreamExc {
         return ints.flatMap(list -> list.stream().map(x -> x * x));
     }
 
-    //public static void main(String[] args){
-    //LambdaStreamExcImp lambdaStreamExc= new LambdaStreamExcImp();
-    //System.out.println(lambdaStreamExc.filter(lambdaStreamExc.createStrStream("five"),"fi").toString());
-    //System.out.println(lambdaStreamExc.getLambdaPrinter("Filtered out 'fi' ", "\n"));
-    //lambdaStreamExc.printMessages(lambdaStreamExc.filter(lambdaStreamExc.createStrStream("five"),"fi"));
-    // }
     public static void main(String[] args) {
         LambdaStreamExcImp lambdaStreamExcImp = new LambdaStreamExcImp();
         String[] strings = new String[]{"Farnaz", "Jarvis", "Edward"};
@@ -105,7 +99,6 @@ public class LambdaStreamExcImp implements LambdaStreamExc {
                 )
                 ).map(String::valueOf).toArray(String[]::new),
                 lambdaStreamExcImp.getLambdaPrinter("Squared is:  ", "\n"));
-
 
     }
 }

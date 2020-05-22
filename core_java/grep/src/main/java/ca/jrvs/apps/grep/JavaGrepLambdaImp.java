@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
-import javax.imageio.IIOException;
 import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +19,7 @@ import org.slf4j.LoggerFactory;
 public class JavaGrepLambdaImp extends JavaGrepImp {
 
     final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
+
     public static void main(String[] args) {
         if (args.length != 3) {
             throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
@@ -62,13 +62,13 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
             readLines = Files.lines().collect(Collectors.toList());
             Files.close();
         } catch (IOException e) {
-            logger.error(e.getMessage(),e);
+            logger.error(e.getMessage(), e);
         }
         return readLines;
     }
 
 
-    }
+}
 
 
 
