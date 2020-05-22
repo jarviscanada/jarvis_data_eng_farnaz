@@ -156,5 +156,4 @@ public interface LambdaStreamExc {
      */
     Stream<Integer> flatNestedInt(Stream<List<Integer>> ints);
 
-
 }

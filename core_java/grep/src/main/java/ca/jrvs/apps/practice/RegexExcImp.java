@@ -32,4 +32,3 @@ public class RegexExcImp implements RegexExc {
         System.out.println(regeximp.isEmptyLine("file"));
     }
 }
-

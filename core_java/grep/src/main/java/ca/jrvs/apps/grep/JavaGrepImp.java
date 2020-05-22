@@ -148,4 +148,3 @@ public class JavaGrepImp implements JavaGrep {
         this.outFile = outFile;
     }
 }
-

@@ -99,6 +99,5 @@ public class LambdaStreamExcImp implements LambdaStreamExc {
                 )
                 ).map(String::valueOf).toArray(String[]::new),
                 lambdaStreamExcImp.getLambdaPrinter("Squared is:  ", "\n"));
-
     }
 }

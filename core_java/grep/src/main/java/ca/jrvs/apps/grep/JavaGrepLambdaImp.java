@@ -1,4 +1,3 @@
-
 package ca.jrvs.apps.grep;
 
 import java.io.BufferedReader;
@@ -53,7 +52,6 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
         return files;
     }
 
-
     @Override
     public List<String> readLines(File inputFile) {
         List<String> readLines = new ArrayList<>();
@@ -67,8 +65,4 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
         return readLines;
     }
 
-
 }
-
-
-
