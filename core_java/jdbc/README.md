@@ -7,7 +7,6 @@ Data Access Objects (DAOs) patterns, Repository patterns, understanding transact
 # ER Diagram
 
 ![ER diagram](./assets/ERDiagram.png)
-<img src= "./assets/ERDiagram.png" >
 
 # Design Patterns
 Two design patterns are discussed to make an abstraction layer between the raw JDBC code and the rest of the application:
