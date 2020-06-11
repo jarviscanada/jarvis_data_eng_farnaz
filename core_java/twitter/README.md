@@ -24,7 +24,9 @@ Implementing this application is a great practice to gain valuable hands-on expe
 
 # Design
 ## UML diagram
-![UML Diagram](./assets/UML%20Diagram.png)
+<img src="./assets/UMLDiagram.png">
+
+![UML Diagram](./assets/UMLDiagram.png)
 
 
 The application consists of the following components:
