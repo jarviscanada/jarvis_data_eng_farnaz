@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a775b6a-b358-4656-b9e5-ecde45424d5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../linux_sql/scripts/psql_docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../linux_sql/scripts/psql_docker.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cDrZ7ibXlv3O4tCwzWOcROB43C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RunManager" selected="Application.JavaGrepLambdaImp">
+    <configuration name="JavaGrepImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.JavaGrepImp" />
+      <module name="grep" />
+      <option name="PROGRAM_PARAMETERS" value=".*Java.* ./grep/src /tmp/grep.out" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.grep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaGrepLambdaImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.JavaGrepLambdaImp" />
+      <module name="grep" />
+      <option name="PROGRAM_PARAMETERS" value=".*IllegalArgumentException.* ./grep/src /tmp/grep.out" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.grep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaStreamExcImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.LambdaStreamExcImp" />
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JavaGrepImp" />
+      <item itemvalue="Application.JavaGrepLambdaImp" />
+      <item itemvalue="Application.LambdaStreamExcImp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaGrepLambdaImp" />
+        <item itemvalue="Application.JavaGrepImp" />
+        <item itemvalue="Application.LambdaStreamExcImp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a775b6a-b358-4656-b9e5-ecde45424d5c" name="Default Changelist" comment="" />
+      <created>1590074057056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590074057056</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="384" y="124" key="#Project_Structure" timestamp="1590074071928">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state x="384" y="124" key="#Project_Structure/0.23.1792.1039@0.23.1792.1039" timestamp="1590074071928" />
+    <state x="422" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590177767073">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state x="422" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1039@0.23.1792.1039" timestamp="1590177767073" />
+    <state x="1165" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1590094096932">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state x="1165" y="269" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1039@0.23.1792.1039" timestamp="1590094096932" />
+    <state width="1470" height="242" key="GridCell.Tab.0.bottom" timestamp="1590182795203">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795203" />
+    <state width="1470" height="242" key="GridCell.Tab.0.center" timestamp="1590182795202">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.0.center/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795202" />
+    <state width="1470" height="242" key="GridCell.Tab.0.left" timestamp="1590182795202">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.0.left/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795202" />
+    <state width="1470" height="242" key="GridCell.Tab.0.right" timestamp="1590182795202">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.0.right/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795202" />
+    <state width="1470" height="242" key="GridCell.Tab.1.bottom" timestamp="1590182795203">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795203" />
+    <state width="1470" height="242" key="GridCell.Tab.1.center" timestamp="1590182795203">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.1.center/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795203" />
+    <state width="1470" height="242" key="GridCell.Tab.1.left" timestamp="1590182795203">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.1.left/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795203" />
+    <state width="1470" height="242" key="GridCell.Tab.1.right" timestamp="1590182795203">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1470" height="242" key="GridCell.Tab.1.right/0.23.1792.1039@0.23.1792.1039" timestamp="1590182795203" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/grep$JavaGrepLambdaImp.ic" NAME="JavaGrepLambdaImp Coverage Results" MODIFIED="1590163300950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ca.jrvs.apps.grep.*</FILTER>
+    </SUITE>
+  </component>
+</project>
