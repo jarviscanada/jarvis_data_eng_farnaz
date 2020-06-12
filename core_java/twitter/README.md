@@ -56,10 +56,10 @@ When an interface is implemented, the dependencies will pass through constructor
 
 For example, `TwitterController` depends on Service. Therefore, `@Autowired` annotation is used to tell IoC container to inject dependency through the constructor. Moreover, `@Controller` (`@org.springframework.stereotype.Controller` for preventing naming conflict) annotation is used to identifies this class as a bean for IoC container and be managed by IoC container.
 
-###SpringBoot approach
+### SpringBoot approach
 Spring Boot is basically an extension of the Spring framework, which eliminates the boilerplate configurations required for setting up a Spring application. In addition, Spring Boot also comes with a default web servlet.
 
-#Models
+# Models
 Models are implemented with POJOs, which is a class with private member variables and public getter and setters. This class encapsulates Tweet data, which often is displayed in JSON format.  A sample Json output used in the application: 
 ````{
   "created_at" : "Thu Nov 28 20:11:33 +0000 2019",
