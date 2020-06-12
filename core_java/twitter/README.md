@@ -58,7 +58,8 @@ For example, `TwitterController` depends on Service. Therefore, `@Autowired` ann
 
 ###SpringBoot approach
 Spring Boot is basically an extension of the Spring framework, which eliminates the boilerplate configurations required for setting up a Spring application. In addition, Spring Boot also comes with a default web servlet.
-# Models
+
+#Models
 Models are implemented with POJOs, which is a class with private member variables and public getter and setters. This class encapsulates Tweet data, which often is displayed in JSON format.  A sample Json output used in the application: 
 ````{
   "created_at" : "Thu Nov 28 20:11:33 +0000 2019",
