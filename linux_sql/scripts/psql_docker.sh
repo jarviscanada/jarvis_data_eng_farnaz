@@ -7,7 +7,7 @@ username= $3
 export PGPASSWORD=$password
 
 #checks docker_deamon status, if not running, start docker
-sudo systemctl status docker || sudo systemctl start docker
+sudo launchctl status docker || sudo launchctl start docker
 
 # Creates the docker...It gives an error it is already created 
 if [[ $operation = "create" ]]; then
