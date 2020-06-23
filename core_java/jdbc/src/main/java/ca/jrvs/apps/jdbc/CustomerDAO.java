@@ -46,7 +46,6 @@ public class CustomerDAO extends DataAccessObject<Customer> {
                 customer.setZipCode(rs.getString("zipcode"));
             }
         } catch (SQLException e) {
-            this.logger.error(e.getMessage(), e);
             throw new RuntimeException(e);
         }
         return customer;
@@ -100,7 +99,6 @@ public class CustomerDAO extends DataAccessObject<Customer> {
             int id = this.getLastVal(CUSTOMER_SEQUENCE);
             return this.findById(id);
         } catch (SQLException e) {
-            this.logger.error(e.getMessage(), e);
             throw new RuntimeException(e);
         }
     }
@@ -111,7 +109,6 @@ public class CustomerDAO extends DataAccessObject<Customer> {
             statement.setLong(1, id);
             statement.execute();
         } catch (SQLException e) {
-            this.logger.error(e.getMessage(), e);
             throw new RuntimeException(e);
         }
     }
