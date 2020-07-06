@@ -1,3 +1,4 @@
+
 # Farnaz Mozaffari . Jarvis Consulting
 I recently completed my master's degree in Computer Engineering from University of Guelph with a focus on AI applications. 
 During my master's studies, I worked with different datasets and developed machine learning and deep learning models mainly in python for various applications such as cybersecurity systems. 
@@ -109,3 +110,4 @@ Computing Systems, (ENGG*2410) Digital Systems Design, (ENGG*3410) Systems and C
 - **Web Design** - Tehran Institute of Technology (June 2018)
 - **FPGA** - Tehran Institute of Technology (May 2016)
 - **AVR microcontroller** - Tehran Institute of Technology (Jan 2016)
+
