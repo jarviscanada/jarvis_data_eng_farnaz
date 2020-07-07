@@ -10,8 +10,7 @@ With my rewarding experience at Jarvis, I am confident I will be a great candida
 
 ## Skills
 
-**Proficient:** Java, Python (Numpy, Scipy, Scikit-learn, Pandas, TensorFlow, Keras), 
-Machine Learning (Linear Regression, Bayesian Network, SVM, KNN, K-means clustering, ANN), Linux/Bash, SQL, Git, Agile/Scrum
+**Proficient:** Java, Linux/Bash, SQL, Git, Agile/Scrum, Python(Numpy, Scipy, Scikit-learn, Pandas, TensorFlow, Keras), Machine Learning (Linear Regression, Bayesian Network, SVM, KNN, K-means clustering, ANN)
 
 **Competent:** RDBMS, Springboot, REST APIs, Android App development, XML/HTML5, CSS3, MATLAB, VHDL
 
@@ -71,7 +70,6 @@ Computing Systems, (ENGG*2410) Digital Systems Design, (ENGG*3410) Systems and C
  - Conducted technical quality control for electronic units prior to commercial distribution
  - Worked on placing and rooting high-speed multi layer circuit boards
  - Collaborated with hardware engineers to design flex circuits from concept phase to mass production
-
 
 ## Education & Academic Projects
 
