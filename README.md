@@ -34,9 +34,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
     Through this minus V based application, looking up or deleting a tweet by ID can be achieved.
                        
    
-- **[SpringBoot App](./springboot)**: In progress
+- **[SpringBoot App](./springboot)**: Developed a three-tier Microservice REST API based application, which provides an online trading platform to sell or buy stocks. 
+The application gathers market information from IEX Cloud and persists the gathered data in a local PostgreSQL database. 
+Springboot farme work is utilized for dependency management in this project.
+- **[Hadoop](./hadoop)**: In progress
 - **[Cloud & DevOps](./cloud_devops)**: Not started
-- **[Hadoop](./hadoop)**: Not started
 - **[Spark/Scala](./spark)**:  Not started
 
 ## Professional Experiences
