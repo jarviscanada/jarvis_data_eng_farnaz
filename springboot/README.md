@@ -77,7 +77,7 @@ This Microservice MVC architecture application is built with the Springboot fram
 
 ![Swagger](./assets/Swagger_Screenshot.png)
 ## Architecture
-![Architecture](./assets/trading_app_arch.jpg)
+![Architecture](./assets/Architecture.jpg)
 
   - **Controller layer**: Handles HTTP requests. Web Servlet maps each request to the corresponding service class.
   - **Service layer**: Handles business logics and processing validation. For example, it allows processing an order only if it is not empty. 
