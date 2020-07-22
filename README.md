@@ -1,17 +1,17 @@
+
 # Farnaz Mozaffari . Jarvis Consulting
 I recently completed my master's degree in Computer Engineering from University of Guelph with a focus on AI applications. 
 During my master's studies, I worked with different datasets and developed machine learning and deep learning models mainly in python for various applications such as cybersecurity systems. 
 With my strong background in analyzing and interpreting large dataset and development of highly accurate forecasting systems, I started my training program at Jarvis Consulting group. 
 Developing various projects at Jarvis led me to become skilled in debugging and increasing code efficiency in PostgreSQL and Java Stream APIs as well as gaining comprehensive knowledge of REST APIs, and Spring framework. 
-<br /> I am a self-initiated and motivated person with a passion in implementing complex algorithms. Also, I am eager to have positive impact in business transformation and performance improvement. 
-
-With my master of Computer Engineering degree and rewarding experience at Jarvis, I am confident I will be a great candidate for Software Development opportunities mainly in the fields of Data and Machine-learning Engineering.
+I am a self-initiated and motivated person with a passion in implementing complex algorithms. Also, I am eager to have positive impact on business transformation and performance improvement. 
+With my rewarding experience at Jarvis, I am confident I will be a great candidate for Software Development opportunities mainly in the fields of Data and Machine-learning Engineering.
 
 
 ## Skills
 
-**Proficient:** Java, Python, Linux/Bash, SQL, Git, Machine
- Learning , Deep Learning , Agile/Scrum
+**Proficient:** Java, Python (Numpy, Scipy, Scikit-learn, Pandas, TensorFlow, Keras), 
+Machine Learning (Linear Regression, Bayesian Network, SVM, KNN, K-means clustering, ANN), Linux/Bash, SQL, Git, Agile/Scrum
 
 **Competent:** RDBMS, Springboot, REST APIs, Android App development, XML/HTML5, CSS3, MATLAB, VHDL
 
@@ -21,7 +21,7 @@ With my master of Computer Engineering degree and rewarding experience at Jarvis
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](https://github.com/jarviscanada/jarvis_data_eng_farnaz)
 
-- **[Cluster Monitor](https://github.com/jarviscanada/jarvis_data_eng_farnaz/tree/master/linux_sql)**:  Built real-time internal tool that collects and records the hardware specifications and node resource usages, such as CPU and memory information. 
+- **[Cluster Monitor](https://github.com/jarviscanada/jarvis_data_eng_farnaz/tree/master/linux_sql)**:  Built a real-time internal tool that collects and records the hardware specifications and node resource usages, such as CPU and memory information. 
                                        Stores the collected data in a locally hosted PostgreSQL database, which is provisioned by docker container. Implemented by using Bash Scripts and PostgreSQL.
 - **[Core Java Apps](https://github.com/jarviscanada/jarvis_data_eng_farnaz/tree/master/core_java)**: Consists of three different projects with using Appache Maven for project management and building each application:
     
@@ -34,9 +34,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
     Through this minus V based application, looking up or deleting a tweet by ID can be achieved.
                        
    
-- **[SpringBoot App](./springboot)**: In progress
+- **[SpringBoot App](./springboot)**: Developed a three-tier Microservice REST API based application, which provides an online trading platform to sell or buy stocks. 
+The application gathers market information from IEX Cloud and persists the gathered data in a local PostgreSQL database. 
+Springboot farme work is utilized for dependency management in this project.
+- **[Hadoop](./hadoop)**: In progress
 - **[Cloud & DevOps](./cloud_devops)**: Not started
-- **[Hadoop](./hadoop)**: Not started
 - **[Spark/Scala](./spark)**:  Not started
 
 ## Professional Experiences
@@ -49,17 +51,16 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
  - Assisted the project team in identifying code errors and providing methods for resolving issues 
  - Reported progress to the team members through Sprint Retrospective
 
-**Machine-Learning Researcher ,Smart Cyber-Physical System Lab (SCPS), Guelph (May 2019 - Feb 2020)**
+**Machine-Learning Researcher, Smart Cyber-Physical System Lab (SCPS), Guelph (May 2019 - Feb 2020)**
 
  - Conducted scientific research in areas of Machine-learning and Artificial Intelligence for anomaly detection
-in cyber-physical systems
- - Developed advanced machine learning and deep learning systems to solve complex big data problems
- - Deployed machine learning pipelines: dimensionality reduction, feature extraction, data integration, data
+in cyber-physical systems  
+- Deployed machine learning pipelines: dimensionality reduction, feature extraction, data integration, data
 mapping, and algorithm development
- - Collaborated with an engineering team to work on real-life Power systems and Smart grids systems
-datasets
+ - Developed highly accurate Artificial Neural Network in TensorFlow framework to predict and prevent cyber attacks 
+ - Collaborated with an engineering team to work on real-life smart grids' systems datasets driven from Mississippi State University
 
-**Graduate Teaching Assistant ,University of Guelph, Ontario (Sep 2019 - Dec 2019)**
+**Graduate Teaching Assistant, University of Guelph, Ontario (Sep 2019 - Dec 2019)**
 
  - Performed all teaching assistant duties for 3 undergrad courses: (ENGG*3050) Embedded Reconfigurable
 Computing Systems, (ENGG*2410) Digital Systems Design, (ENGG*3410) Systems and Control Theory
@@ -111,3 +112,4 @@ Computing Systems, (ENGG*2410) Digital Systems Design, (ENGG*3410) Systems and C
 - **Web Design** - Tehran Institute of Technology (June 2018)
 - **FPGA** - Tehran Institute of Technology (May 2016)
 - **AVR microcontroller** - Tehran Institute of Technology (Jan 2016)
+
