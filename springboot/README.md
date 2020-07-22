@@ -112,7 +112,7 @@ Order controller handles requests for buying or selling orders.
 
 ## Docker Deployment
 
-![Architecture](./assets/Docker.jpg)
+![Docker](./assets/Docker.jpg)
 
 - **trading-psql** : Is built by pulling the `postgres:9.6-alpine` base image from the Docker Hub.
 In addition to the official image, trading-psql has all necessary databases and tables initialized (ready to be consumed by the trading-app) 
