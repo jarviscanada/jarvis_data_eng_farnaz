@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="trading-app" options="-parameters" />
+      <module name="trading-app" options="" />
     </option>
   </component>
 </project>
