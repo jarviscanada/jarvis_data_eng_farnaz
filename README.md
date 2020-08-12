@@ -35,7 +35,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
    
 - **[SpringBoot App](./springboot)**: Developed a three-tier Microservice REST API based application, which provides an online trading platform to sell or buy stocks. 
 The application gathers market information from IEX Cloud and persists the gathered data in a local PostgreSQL database. 
-Springboot farme work is utilized for dependency management in this project.
+Springboot framework is utilized for dependency management in this project.
 - **[Hadoop](./hadoop)**: In progress
 - **[Cloud & DevOps](./cloud_devops)**: Not started
 - **[Spark/Scala](./spark)**:  Not started
@@ -108,4 +108,7 @@ Computing Systems, (ENGG*2410) Digital Systems Design, (ENGG*3410) Systems and C
 - **Web Design** - Tehran Institute of Technology (June 2018)
 - **FPGA** - Tehran Institute of Technology (May 2016)
 - **AVR microcontroller** - Tehran Institute of Technology (Jan 2016)
+
+## Publication
+- [Learning Based Anomaly Detection in Critical Cyber-Physical Systems](https://link.springer.com/chapter/10.1007%2F978-3-030-45541-5_6), Springer Book, July 2020
 
