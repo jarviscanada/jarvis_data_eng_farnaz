@@ -110,10 +110,8 @@ Computing Systems, (ENGG*2410) Digital Systems Design, (ENGG*3410) Systems and C
 - **AVR microcontroller** - Tehran Institute of Technology (Jan 2016)
 
 ## Publication
-<<<<<<< HEAD
-- [Learning Based Anomaly Detection in Critical Cyber-Physical Systems](https://link.springer.com/chapter/10.1007%2F978-3-030-45541-5_6), Springer Book, July 2020
-=======
 
-[Learning Based Anomaly Detection in Critical Cyber-Physical Systems](https://link.springer.com/chapter/10.1007%2F978-3-030-45541-5_6), Springer Book, July 2020
->>>>>>> feature/resume
+- [Learning Based Anomaly Detection in Critical Cyber-Physical Systems](https://link.springer.com/chapter/10.1007%2F978-3-030-45541-5_6), Springer Book, July 2020
+
+
 
