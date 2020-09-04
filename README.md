@@ -1,6 +1,6 @@
 # Farnaz Mozaffari . Jarvis Consulting
 
-I recently completed my master's degree in Computer Engineering from University of Guelph with a focus on AI applications. During my master's studies, I worked with different datasets and developed machine learning and deep learning models mainly in python for various applications such as cybersecurity systems. With my strong background in analyzing and interpreting large datasets and the development of highly accurate forecasting systems, I started my training program at Jarvis Consulting group. Developing various projects at Jarvis led me to become skilled in debugging and increasing code efficiency in PostgreSQL and Java Stream APIs as well as gaining a comprehensive knowledge of Linux, and the Spring framework. I am a self-initiated and motivated person with a passion for implementing complex algorithms. Also, I am eager to have a positive impact on business transformation and performance improvement. With my rewarding experience at Jarvis, I am confident I will be a great candidate for Software Development opportunities mainly in the fields of Data and Machine-learning Engineering.
+I recently completed my master's degree in Computer Engineering from the University of Guelph with a focus on AI applications. During my master's studies, I worked with different datasets and developed machine learning and deep learning models mainly in python for various applications such as cybersecurity systems. With my strong background in analyzing and interpreting large datasets and the development of highly accurate forecasting systems, I started my training program at Jarvis Consulting group. Developing various projects at Jarvis led me to become skilled in debugging and increasing code efficiency in PostgreSQL and Java Stream APIs as well as gaining a comprehensive knowledge of Linux, and the Spring framework. I am a self-initiated and motivated person with a passion for implementing complex algorithms. Also, I am eager to have a positive impact on business transformation and performance improvement. With my rewarding experience at Jarvis, I am confident I will be a great candidate for Software Development opportunities mainly in the fields of Data and Machine-learning Engineering.
 
 ## Skills
 
@@ -43,14 +43,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
 
 **Rowhammer Attack detection and prevention**: Predicted and prevented Rowhammer attacks exploiting hardware vulnerabilities by developing pattern recognition models in Python.
 
-**Real-Time home security systems**: Developed real-time application that relates to “Home-security” by using uc/os- III. The app performed 3 concurrent tasks by unique priorities. 1)Detecting ‘intruder’ with PIR motion sensor 2)Triggering camera capture if motion is detected 3) Sending alerts. Real-time analysis was recorded for evaluating the performance of the application.
+**Real-Time home security systems**: Developed real-time application that relates to “Home-security” by using uc/os- III. The app performed 3 concurrent tasks with unique priorities. 1)Detecting ‘intruder’ with PIR motion sensor 2)Triggering camera capture if motion is detected 3) Sending alerts. Real-time analysis was recorded for evaluating the performance of the application.
 
 
 ## Professional Experiences
 
 **Software Developer, Jarvis (2020-present)**: 
 
-- Developed, managed and tracked project plans to implement requested features in a timely manner at the discretion of the product owner. 
+- Developed, managed ,and tracked project plans to implement requested features in a timely manner at the discretion of the product owner. 
  - Responsible for implementing unit testing frameworks (JUnit and Mockito) leading to successful validation of application deployment. 
  - Assisted the project team in identifying code errors and providing methods for resolving issues. 
  - Reported progress to the team members through Sprint Retrospective
@@ -59,7 +59,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
 
 - Conducted scientific research in areas of Machine-learning and Artificial Intelligence for anomaly detection in cyber-physical systems. 
  - Deployed machine learning pipelines: dimensionality reduction, feature extraction, data integration, data mapping, and algorithm development. 
- - Developed highly accurate Artificial Neural Network in TensorFlow framework to predict and prevent cyber attacks. 
+ - Developed highly accurate Artificial Neural Network in the TensorFlow framework to predict and prevent cyber attacks. 
  - Collaborated with an engineering team to work on real-life smart grids' systems datasets driven from Mississippi State University
 
 **Graduate Teaching Assistant, University of Guelph (Sep 2019 - Dec 2019)**: 
