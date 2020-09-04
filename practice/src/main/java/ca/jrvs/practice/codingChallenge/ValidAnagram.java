@@ -1,4 +1,6 @@
 package ca.jrvs.practice.codingChallenge;
+/*Input: s = "anagram", t = "nagaram"
+        Output: true*/
 
 import java.util.Arrays;
 import java.util.HashMap;
