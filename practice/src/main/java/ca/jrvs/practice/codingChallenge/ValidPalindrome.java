@@ -1,4 +1,6 @@
 package ca.jrvs.practice.codingChallenge;
+/*Input: "race a car"
+        Output: false*/
 
 public class ValidPalindrome {
     public boolean isValid(String s){
