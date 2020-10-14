@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.util.StringUtils;
 
 @Configuration
 @EnableTransactionManagement
@@ -33,13 +34,34 @@ public class AppConfig {
         return cm;
     }
 
-    @Bean
-    public DataSource dataSource() {
+    //@Bean
+    /*public DataSource dataSource() {
         String url = System.getenv("PSQL_URL");
         String user = System.getenv("PSQL_USER");
         String password = System.getenv("PSQL_PASSWORD");
         BasicDataSource basicDataSource = new BasicDataSource();
         basicDataSource.setUrl(url);
+        basicDataSource.setUsername(user);
+        basicDataSource.setPassword(password);
+        return basicDataSource;*/
+    @Bean
+    public DataSource dataSource() {
+
+        String jdbcUrl = new String();
+        String user = null;
+        String password = null;
+        if (!StringUtils.isEmpty(System.getenv("RDS_HOSTNAME"))){
+            //set up variables
+        } else {
+            jdbcUrl = System.getenv("PSQL_URL");
+            user = System.getenv("PSQL_USER");
+            password = System.getenv("PSQL_PASSWORD");
+        }
+
+
+        logger.debug("JDBC" + jdbcUrl);
+        BasicDataSource basicDataSource = new BasicDataSource();
+        basicDataSource.setUrl(jdbcUrl);
         basicDataSource.setUsername(user);
         basicDataSource.setPassword(password);
         return basicDataSource;

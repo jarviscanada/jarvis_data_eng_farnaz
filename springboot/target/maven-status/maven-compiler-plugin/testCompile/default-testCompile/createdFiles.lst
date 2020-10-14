@@ -1,0 +1,10 @@
+ca/jrvs/apps/trading/service/TraderAccountServiceIntTest.class
+ca/jrvs/apps/trading/dao/MarketDataDaoIntTest.class
+ca/jrvs/apps/trading/service/QuoteServiceIntTest.class
+ca/jrvs/apps/trading/dao/QuoteDaoIntTest.class
+ca/jrvs/apps/trading/service/OrderServiceTest.class
+ca/jrvs/apps/trading/dao/PositionDaoIntTest.class
+ca/jrvs/apps/trading/dao/AccountDaoIntTest.class
+ca/jrvs/apps/trading/dao/TraderDaoIntTest.class
+ca/jrvs/apps/trading/TestConfig.class
+ca/jrvs/apps/trading/dao/SecurityOrderDaoIntTest.class
