@@ -1,0 +1,10 @@
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/dao/PositionDaoIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/dao/TraderDaoIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/service/QuoteServiceIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/dao/QuoteDaoIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/dao/AccountDaoIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/dao/SecurityOrderDaoIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/dao/MarketDataDaoIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/TestConfig.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/service/TraderAccountServiceIntTest.java
+/Users/farnazmozaffari/Jarvis/Dev/jarvis_data_eng_farnaz/springboot/src/test/java/ca/jrvs/apps/trading/service/OrderServiceTest.java
