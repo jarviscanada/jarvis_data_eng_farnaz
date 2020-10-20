@@ -29,7 +29,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_farnaz](ht
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_farnaz/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_farnaz/tree/master/cloud_devops)]: In Progress
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_farnaz/tree/master/cloud_devops)]: Deployed the Springboot trading app on the Amazon Web Services (AWS) cloud making it scalable, elastic and highly available. The AWS tools that are used in this project are: Elastic Cloud Compute(EC2), Amazon Relational Database Service (RDS), and AWS's Elastic Beanstalk (EB). Built DEV and PROD environments as well as created CI/CD pipeline using Jenkins and Elastic BeanStalk to automate and fasten the deployment life cycle.
 
 
 ## Highlighted Projects
