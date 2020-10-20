@@ -13,8 +13,6 @@ which provides an online trading platform to sell or buy stocks. The cloud servi
 
 The cloud architecture diagram is illustrated below:
 
-<img src="./" alt="My cool logo"/>
-
 ![Architecture](./draw_io/Cloud_Architecture.png)
 
 The Application Load Balancer (ALB) takes the incoming HTTP requests from the users and automatically distributes the incoming traffic across multiple targets that are available to receive requests. 
