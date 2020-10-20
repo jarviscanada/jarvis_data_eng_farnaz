@@ -13,6 +13,7 @@ which provides an online trading platform to sell or buy stocks. The cloud servi
 
 The cloud architecture diagram is illustrated below:
 
+<img src="./" alt="My cool logo"/>
 
 ![Architecture](./draw_io/Cloud_Architecture.png)
 
