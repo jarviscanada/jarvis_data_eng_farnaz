@@ -17,7 +17,7 @@ The frontend uses Azure Content Delivery (CDN) with image, HTML, CSS and JavaScr
 The retail data, which is used in this PoC is driven from the SQL server and is stored in the PSQL Database. This data is pulled to Jupyter notebook, which the data analytics is performed on
 
 # Data Analytics and Wrangling
-The proof of concept of this project is an ipynb file, which can be found [here](https://github.com/jarviscanada/jarvis_data_eng_farnaz/blob/master/python_data_wrangling/retail_data_analytics_wrangling.ipynb) 
+The proof of concept of this project is an ipynb file, which can be found [here](https://github.com/jarviscanada/jarvis_data_eng_farnaz/blob/master/python_data_wrangling/retail_data_analytics_wrangling.ipynb). 
 Different business analysis is performed in this notebook such as finding total invoice amount, the monthly placed and canceled orders as well as plotting their distribution; visualizing monthly sales growth and monthly active users. 
 Also, the report and segmentations for each RFM parameter are created inside a table. 
 These analyses can help the LGS company to improve their sales revenue based on the results of this project. 
