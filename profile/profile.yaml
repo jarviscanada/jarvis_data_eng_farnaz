@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_farnaz
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I recently completed my master's degree in Computer Engineering from the University of Guelph with a focus on AI applications. During my master's studies, I worked with different datasets and developed machine learning and deep learning models mainly in python for various applications such as cybersecurity systems. With my strong background in analyzing and interpreting large datasets and the development of highly accurate forecasting systems, I started my training program at Jarvis Consulting group. Developing various projects at Jarvis led me to become skilled in debugging and increasing code efficiency in PostgreSQL and Java Stream APIs as well as gaining a comprehensive knowledge of Linux, and the Spring framework. I am a self-initiated and motivated person with a passion for implementing complex algorithms. Also, I am eager to have a positive impact on business transformation and performance improvement. With my rewarding experience at Jarvis, I am confident I will be a great candidate for Software Development opportunities mainly in the fields of Data and Machine-learning Engineering.
+summary: I recently completed my master's degree in Computer Engineering from the University of Guelph with a focus on AI applications. During my master's studies, I worked with different datasets and developed machine learning and deep learning models mainly in python for various applications such as cybersecurity systems. With my strong background in analyzing and interpreting large datasets and the development of highly accurate forecasting systems, I started my training program at Jarvis Consulting group. Developing various projects at Jarvis led me to become skilled in debugging and increasing code efficiency in SQL and Java Stream APIs as well as gaining a comprehensive knowledge of Linux, Spring framework, and AWS. I am a self-initiated and motivated person with a passion for implementing complex algorithms. Also, I am eager to have a positive impact on business transformation and performance improvement. With my rewarding experience at Jarvis, I am confident I will be a great candidate for Software Development opportunities mainly in the fields of Data and Machine-learning Engineering.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -24,13 +24,14 @@ skills:
     - Springboot
     - REST APIs
     - Android App Development
+    - AWS Cloud Development
     - XML/ HTML5
-    - CSS3
+    
   # At least 5 skills
   familiar:
     - Computer Networking
     - Hadoop
-    - Cloud Development
+    - CSS3
     - C
     - C++
 
@@ -53,10 +54,13 @@ jarvis_projects:
     description: "In Progress"
   - name: "Spark"
     git_url: "/spark"
-    description: "Not Started"
+    description: "In Progress"
   - name: "Cloud/DevOps"
     git_url: "/cloud_devops"
-    description: "In Progress"
+    description: "Deployed the Springboot trading app on the Amazon Web Services (AWS) cloud making it scalable, elastic and highly available. The AWS tools that are used in this project are: Elastic Cloud Compute(EC2), Amazon Relational Database Service (RDS), and AWS's Elastic Beanstalk (EB). Built DEV and PROD environments as well as created CI/CD pipeline using Jenkins and Elastic BeanStalk to automate and fasten the deployment life cycle."
+  - name: "Python Data Analytics"
+    git_url: "/python_data_wrangling"
+    description: "Designed a PoC to solve business problems of a sales company by using Python, Jupyter Notebook, Pandas Dataframe, and Numpy as the main tools. Presented solution reports by using table and plots.  RFM segmentation is perormed to categorize the customers into different segments based one their interactions and having the ability to improve the sales revenue."
 
 highlighted_projects:
     #project name
